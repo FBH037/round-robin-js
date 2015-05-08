@@ -1,3 +1,4 @@
+
 describe('roundRobin', function () {
 
   it('returns an empty array when given an empty array', function () {
@@ -7,7 +8,7 @@ describe('roundRobin', function () {
   });
 
   it('returns round 1 for a 6-element array correctly', function () {
-    pending();
+    // pending();
     var input = [1,2,3,4,5,6];
     var result = roundRobin(input);
 
@@ -21,7 +22,7 @@ describe('roundRobin', function () {
   });
 
   it('returns round 2 for a 6-element array correctly', function () {
-    pending();
+    // pending();
     var input = [1,2,3,4,5,6];
     var result = roundRobin(input);
 
@@ -35,7 +36,7 @@ describe('roundRobin', function () {
   });
 
   it('returns round 3 for a 6-element array correctly', function () {
-    pending();
+    // pending();
     var input = [1,2,3,4,5,6];
     var result = roundRobin(input);
 
@@ -49,7 +50,7 @@ describe('roundRobin', function () {
   });
 
   it('returns round 4 for a 6-element array correctly', function () {
-    pending();
+    // pending();
     var input = [1,2,3,4,5,6];
     var result = roundRobin(input);
 
@@ -63,7 +64,7 @@ describe('roundRobin', function () {
   });
 
   it('returns round 5 for a 6-element array correctly', function () {
-    pending();
+    // pending();
     var input = [1,2,3,4,5,6];
     var result = roundRobin(input);
 
@@ -77,14 +78,14 @@ describe('roundRobin', function () {
   });
 
   it('returns undefined for round 6 of a 6-element array', function () {
-    pending();
+    // pending();
     var input = [1,2,3,4,5,6];
     var result = roundRobin(input);
     expect(result[5]).toEqual(undefined);
   });
 
   it('adds the string "(none)" if there are an odd number of teams', function () {
-    pending();
+    // pending();
     var input = [1,2,3,4,5];
     var result = roundRobin(input);
 
@@ -120,7 +121,7 @@ describe('roundRobin', function () {
   });
 
   it('returns rounds for 8 correctly', function () {
-    pending();
+    // pending();
     var input = [1,2,3,4,5,6,7,8];
     var result = roundRobin(input);
 
